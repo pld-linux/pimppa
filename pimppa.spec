@@ -11,6 +11,7 @@ Source0:	http://download.sourceforge.net/pimppa/%{name}-%{version}.tar.gz
 Requires:	suck >= 4.2.2
 Requires:	mysql >= 3.22.30
 Requires:	uudeview >= 0.5.13
+URL:		http://pimppa.sourceforge.net/
 Buildrequires:	mysql-devel >= 3.22.30
 BuildRequires:	gtk+-devel
 BuildRequires:	gnome-libs-devel
