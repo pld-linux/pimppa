@@ -24,17 +24,17 @@ decoding, duplicate discarding, simple spam skip heuristics, sorting
 to predefined directories and further file processing. The keyword is
 "minimal user interaction".
 
-It is NOT a newsreader or ftp client, and can't be used for manual
+It is NOT a newsreader or FTP client, and can't be used for manual
 article reading or site browsing.
 
 %description -l pl
 PIMPPA automatyzuje ¶ci±ganie plików z grup usenetowych i serwerów
 FTP, wraz z dekodowaniem, usuwaniem duplikatów, heurystycznym
-pomijaniem spamu, sortowaniem do predefiniowanych katalalogów i dalsz±
+pomijaniem spamu, sortowaniem do predefiniowanych katalogów i dalsz±
 obróbk± plików. S³owem kluczowym jest "minimalna interakcja
 u¿ytkownika".
 
-To NIE jest czytnik newsów ani klient ftp, nie mo¿e byæ u¿ywany do
+To NIE jest czytnik newsów ani klient FTP, nie mo¿e byæ u¿ywany do
 rêcznego czytania postów ani przegl±dania serwerów.
 
 %prep
