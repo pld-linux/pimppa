@@ -1,7 +1,8 @@
 Summary:	A toolkit to hoard binaries
+Summary(pl):	Zestaw narzêdzi do zbierania binariów
 Name:		pimppa
 Version:	0.5.2
-Release:	1
+Release:	2
 License:	GPL
 Group:		Networking/News
 Group(de):	Netzwerkwesen/News
@@ -24,6 +25,16 @@ to predefined directories and further file processing. The keyword is
 It is NOT a newsreader or ftp client, and can't be used for manual
 article reading or site browsing.
 
+%description -l pl
+PIMPPA automatyzuje ¶ci±ganie plików z grup usenetowych i serwerów
+FTP, wraz z dekodowaniem, usuwaniem duplikatów, heurystycznym
+pomijaniem spamu, sortowaniem do predefiniowanych katalalogów i dalsz±
+obróbk± plików. S³owem kluczowym jest "minimalna interakcja
+u¿ytkownika".
+
+To NIE jest czytnik newsów ani klient ftp, nie mo¿e byæ u¿ywany do
+rêcznego czytania postów ani przegl±dania serwerów.
+
 %prep
 %setup -q
 
@@ -45,12 +56,12 @@ rm -rf $RPM_BUILD_ROOT
 %post
 if mysqlshow -u pimppa pimppa 1>/dev/null 2>/dev/null ; then
 	echo
-	echo It seems you\'re upgrading, as pimppa MySQL tables seem to 
-	echo already exist. I won\'t recreate them.
+	echo "It seems you're upgrading, as pimppa MySQL tables seem to"
+	echo "already exist. I won't recreate them."
 	echo
 	echo You MUST read %{_defaultdocdir}/%{name}-%{version}/ChangeLog to see 
 	echo if you have to perform some actions manually in this upgrade.
-	echo 
+	echo
 	echo
 else
 	echo
