@@ -45,7 +45,7 @@ aclocal
 autoconf
 automake -a -c
 %configure
-%{__make} 
+%{__make}
 
 %install
 rm -rf $RPM_BUILD_ROOT
@@ -64,7 +64,7 @@ if mysqlshow -u pimppa pimppa 1>/dev/null 2>/dev/null ; then
 	echo "It seems you're upgrading, as pimppa MySQL tables seem to"
 	echo "already exist. I won't recreate them."
 	echo
-	echo You MUST read %{_defaultdocdir}/%{name}-%{version}/ChangeLog to see 
+	echo You MUST read %{_defaultdocdir}/%{name}-%{version}/ChangeLog to see
 	echo if you have to perform some actions manually in this upgrade.
 	echo
 	echo
