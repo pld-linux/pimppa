@@ -15,6 +15,8 @@ URL:		http://pimppa.sourceforge.net/
 Buildrequires:	mysql-devel >= 3.22.30
 BuildRequires:	gtk+-devel
 BuildRequires:	gnome-libs-devel
+BuildRequires:	automake
+BuildRequires:	autoconf
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -40,6 +42,10 @@ rêcznego czytania postów ani przegl±dania serwerów.
 %setup -q
 
 %build
+rm -f missing
+aclocal
+autoconf
+automake -a -c
 %configure
 %{__make} 
 
