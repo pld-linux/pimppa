@@ -53,7 +53,6 @@ rm -rf $RPM_BUILD_ROOT
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
 
-gzip -9nf FAQ README TODO ChangeLog
 
 %clean
 rm -rf $RPM_BUILD_ROOT
@@ -79,7 +78,7 @@ fi
 
 %files
 %defattr(644,root,root,755)
-%doc *.gz
+%doc FAQ README TODO ChangeLog
 
 %attr(755,root,root) %{_bindir}/padddir
 %attr(755,root,root) %{_bindir}/padopt
