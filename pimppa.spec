@@ -74,7 +74,7 @@ fi
 
 %files
 %defattr(644,root,root,755)
-%doc {FAQ,README,TODO,ChangeLog}.gz
+%doc *.gz
 
 %attr(755,root,root) %{_bindir}/padddir
 %attr(755,root,root) %{_bindir}/padopt
