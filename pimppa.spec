@@ -5,8 +5,6 @@ Version:	0.5.2
 Release:	2
 License:	GPL
 Group:		Networking/News
-Group(de):	Netzwerkwesen/News
-Group(pl):	Sieciowe/News
 Source0:	http://download.sourceforge.net/pimppa/%{name}-%{version}.tar.gz
 Requires:	suck >= 4.2.2
 Requires:	mysql >= 3.22.30
