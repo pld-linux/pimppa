@@ -7,15 +7,15 @@ License:	GPL
 Group:		Networking/News
 Source0:	http://dl.sourceforge.net/pimppa/%{name}-%{version}.tar.gz
 # Source0-md5:	4e8d1db0fac7f49ce90d57ac97c3b130
-Requires:	suck >= 4.2.2
-Requires:	mysql >= 3.22.30
-Requires:	uudeview >= 0.5.13
 URL:		http://pimppa.sourceforge.net/
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	gnome-libs-devel
 BuildRequires:	gtk+-devel
 BuildRequires:	mysql-devel >= 3.22.30
+Requires:	suck >= 4.2.2
+Requires:	mysql >= 3.22.30
+Requires:	uudeview >= 0.5.13
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
