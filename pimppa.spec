@@ -43,7 +43,7 @@ rêcznego czytania postów ani przegl±dania serwerów.
 rm -f missing
 aclocal
 autoconf
-automake -a -c
+automake -a -c -f
 %configure
 %{__make}
 
