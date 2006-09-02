@@ -13,8 +13,8 @@ BuildRequires:	automake
 BuildRequires:	gnome-libs-devel
 BuildRequires:	gtk+-devel
 BuildRequires:	mysql-devel >= 3.22.30
-Requires:	suck >= 4.2.2
 Requires:	mysql >= 3.22.30
+Requires:	suck >= 4.2.2
 Requires:	uudeview >= 0.5.13
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -64,7 +64,7 @@ if mysqlshow -u pimppa pimppa 1>/dev/null 2>/dev/null ; then
 	echo "It seems you're upgrading, as pimppa MySQL tables seem to"
 	echo "already exist. I won't recreate them."
 	echo
-	echo You MUST read %{_defaultdocdir}/%{name}-%{version}/ChangeLog to see
+	echo You MUST read %{_docdir}/%{name}-%{version}/ChangeLog to see
 	echo if you have to perform some actions manually in this upgrade.
 	echo
 	echo
