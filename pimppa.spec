@@ -1,5 +1,5 @@
 Summary:	A toolkit to hoard binaries
-Summary(pl):	Zestaw narzêdzi do zbierania binariów
+Summary(pl.UTF-8):   Zestaw narzÄ™dzi do zbierania binariÃ³w
 Name:		pimppa
 Version:	0.5.2
 Release:	2
@@ -27,15 +27,15 @@ to predefined directories and further file processing. The keyword is
 It is NOT a newsreader or FTP client, and can't be used for manual
 article reading or site browsing.
 
-%description -l pl
-PIMPPA automatyzuje ¶ci±ganie plików z grup usenetowych i serwerów
-FTP, wraz z dekodowaniem, usuwaniem duplikatów, heurystycznym
-pomijaniem spamu, sortowaniem do predefiniowanych katalogów i dalsz±
-obróbk± plików. S³owem kluczowym jest "minimalna interakcja
-u¿ytkownika".
+%description -l pl.UTF-8
+PIMPPA automatyzuje Å›ciÄ…ganie plikÃ³w z grup usenetowych i serwerÃ³w
+FTP, wraz z dekodowaniem, usuwaniem duplikatÃ³w, heurystycznym
+pomijaniem spamu, sortowaniem do predefiniowanych katalogÃ³w i dalszÄ…
+obrÃ³bkÄ… plikÃ³w. SÅ‚owem kluczowym jest "minimalna interakcja
+uÅ¼ytkownika".
 
-To NIE jest czytnik newsów ani klient FTP, nie mo¿e byæ u¿ywany do
-rêcznego czytania postów ani przegl±dania serwerów.
+To NIE jest czytnik newsÃ³w ani klient FTP, nie moÅ¼e byÄ‡ uÅ¼ywany do
+rÄ™cznego czytania postÃ³w ani przeglÄ…dania serwerÃ³w.
 
 %prep
 %setup -q
