@@ -1,5 +1,5 @@
 Summary:	A toolkit to hoard binaries
-Summary(pl.UTF-8):   Zestaw narzędzi do zbierania binariów
+Summary(pl.UTF-8):	Zestaw narzędzi do zbierania binariów
 Name:		pimppa
 Version:	0.5.2
 Release:	2
